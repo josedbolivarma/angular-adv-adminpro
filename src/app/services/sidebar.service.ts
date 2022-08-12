@@ -15,6 +15,10 @@ export class SidebarService {
           url: '/'
         },
         {
+          titulo: 'Perfil',
+          url: 'perfil'
+        },
+        {
           titulo: 'ProgressBar',
           url: 'progress'
         },
@@ -29,7 +33,7 @@ export class SidebarService {
         {
           titulo: 'Rxjs',
           url: 'rxjs'
-        }
+        },
       ]
     }
   ];
