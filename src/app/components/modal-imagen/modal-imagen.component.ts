@@ -56,6 +56,7 @@ export class ModalImagenComponent implements OnInit {
       .then( img => {
         Swal.fire('Guardado', 'Imagen de usuario actualizada', 'success' );
         this.modalImagenService.nuevaImagen.emit( img );
+        this.cerrarModal();
       })
       .catch( err => {
         console.log( err );

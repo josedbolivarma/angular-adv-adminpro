@@ -37,7 +37,7 @@ export class ModalImagenService {
   }
 
   cerrarModal() {
-
+    this._ocultarModal = true;
   }
 
   constructor() { }

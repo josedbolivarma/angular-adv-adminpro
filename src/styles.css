@@ -44,3 +44,8 @@
     height: 100%;
     z-index: 9999;
 }
+
+.w200 {
+    width: 200px;
+    height: 200px;
+}
